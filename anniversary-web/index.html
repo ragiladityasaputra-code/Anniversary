@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Selamat Anniversary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="gate">
+  <p style="margin:0;font-size:1.4rem">Ada sesuatu nih buat kamu…</p>
+  <button class="seal" id="openBtn" aria-label="Buka ucapan">♥</button>
+  <p style="margin:0;opacity:.7">Pencet segelnya buat buka</p>
+</div>
+
+<div id="petals" aria-hidden="true"></div>
+
+<main>
+  <header class="hero" id="top">
+    <p>Happy anniversary ya!</p>
+    <h1 id="n1">Ragil</h1>
+    <span class="amp">&amp;</span>
+    <h1 id="n2">Sayang</h1>
+    <p>Tiap hari bareng kamu tuh hadiah yang nggak pernah kebayang sebelumnya.</p>
+    <div class="counter" aria-live="off">
+      <div><b id="cD">0</b><span>hari</span></div>
+      <div><b id="cH">0</b><span>jam</span></div>
+      <div><b id="cM">0</b><span>menit</span></div>
+      <div><b id="cS">0</b><span>detik</span></div>
+    </div>
+    <p style="margin-top:1.2rem;opacity:.8">sejak kita mulai bareng</p>
+  </header>
+
+  <section>
+    <h2>Buat Kamu</h2>
+    <div class="letter">
+      <p id="typed" aria-live="polite"></p>
+      <div class="sign" id="sign"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kenangan Kita</h2>
+    <div class="gallery" id="gallery"></div>
+    <p class="empty-hint" id="emptyHint">Foto-foto kita bakal muncul di sini.</p>
+
+  </section>
+
+  <section class="play">
+    <h2>Mau nanya dikit</h2>
+    <p>Kamu seneng nggak sih sama aku?</p>
+    <div class="row" id="row">
+      <button class="btn" id="yes">Iya dong ♥</button>
+      <button class="btn ghost" id="no">Nggak</button>
+    </div>
+    <div class="love-count">Cinta yang terkirim: <b id="loves">0</b></div>
+
+    <h2 style="margin-top:4rem">Kenapa aku sayang kamu</h2>
+    <button class="btn" id="reasonBtn">Buka satu alasan</button>
+    <div class="reason" id="reason" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer id="end">Aku sayang kamu, dari kemarin, hari ini, sampai seterusnya.</footer>
+
+
+<dialog id="viewer">
+  <div id="viewBody"></div>
+  <button class="btn" id="closeView">Tutup</button>
+</dialog>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
