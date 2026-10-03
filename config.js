@@ -4,18 +4,17 @@ const CONFIG = {
   name2: "Annisa",
   since: "2025-12-29T00:00:00",   // tanggal jadian (tahun-bulan-tanggal)
   signature: "Ragil",
-  // Foto/video: taruh file di folder "foto", lalu tulis namanya di sini.
+  // foto/video: taruh file di folder "foto", lalu tulis namanya di sini.
   // Video juga boleh, contoh: { file: "foto/kita.mp4", caption: "Liburan" }
   photos: [
-    { file: "Foto/Foto 1.jpeg", caption: "First date yang beneran first date ga sih?" },
-    { file: "Foto/Foto 2.jpeg", caption: "Sayangku cantik banget" },
-    { file: "Foto/Foto 3.jpeg", caption: "Lucuuu" },
-    { file: "Foto/Foto 4.jpeg", caption: "Hehe" },
-    { file: "Foto/Foto 5.jpeg", caption: "Wkwkwk" },
-    { file: "Foto/Foto 6.jpeg", caption: "Gemess" },
-    { file: "Foto/Foto 7.jpeg", caption: "Bioskop" },
-    { file: "Foto/Foto 8.jpeg", caption: "Upacara" },
-    { file: "Foto/vid anin.mp4", caption: "Makan-makan" },
+    { file: "foto/Foto 1.jpeg", caption: "First date yang beneran first date ga sih?" },
+    { file: "foto/Foto 2.jpeg", caption: "Sayangku cantik banget" },
+    { file: "foto/Foto 3.jpeg", caption: "Lucuuu" },
+    { file: "foto/Foto 4.jpeg", caption: "Hehe" },
+    { file: "foto/Foto 5.jpeg", caption: "Wkwkwk" },
+    { file: "foto/Foto 6.jpeg", caption: "Gemess" },
+    { file: "foto/Foto 7.jpeg", caption: "Bioskop" },
+    { file: "foto/Foto 8.jpeg", caption: "Upacara" }
   ],
   letter:
 `Buat pacar semata wayangku satu-satunya, 
